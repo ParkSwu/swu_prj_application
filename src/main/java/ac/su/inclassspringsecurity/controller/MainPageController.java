@@ -11,7 +11,7 @@ public class MainPageController {
 /private final MainPageService mainPageService;
 
     @GetMapping("/")
-    //public String mainPage() {
+    public String mainPage() {
         return mainPageService.getMainPage(); // index 뷰 네임 리턴
     }
 }
