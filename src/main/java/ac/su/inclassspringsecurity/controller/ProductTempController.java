@@ -41,7 +41,7 @@ public class ProductTempController {
     }
 
     // layout 적용된 products-list 화면 랜딩 handler 추가!
-   /* @GetMapping("/products-layout")
+   /*@GetMapping("/products-layout")
     public String productLayoutPage(
         @RequestParam(value = "page", required = false, defaultValue = "0") int page,
         @RequestParam(value = "size", required = false, defaultValue = "15") int size,
